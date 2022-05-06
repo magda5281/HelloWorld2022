@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="opensmarthouse.core.bundles.io.console" type="repository">
+    <properties maven-id="org.opensmarthouse.core.bundles:org.opensmarthouse.core.io.console:0.10.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.io.console/0.10.1/org.opensmarthouse.core.io.console-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.item/0.10.1/org.opensmarthouse.core.item-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.type/0.10.1/org.opensmarthouse.core.type-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/osgi/org.osgi.service.component.annotations/1.4.0/org.osgi.service.component.annotations-1.4.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.annotation/2.2.100/org.eclipse.jdt.annotation-2.2.100.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.registry/0.10.1/org.opensmarthouse.core.registry-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.storage/0.10.1/org.opensmarthouse.core.storage-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/osgi/osgi.core/7.0.0/osgi.core-7.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.service/0.10.1/org.opensmarthouse.core.service-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.common/0.10.1/org.opensmarthouse.core.common-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/osgi/osgi.cmpn/7.0.0/osgi.cmpn-7.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.i18n/0.10.1/org.opensmarthouse.core.i18n-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.library.type/0.10.1/org.opensmarthouse.core.library.type-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.library.unit/0.10.1/org.opensmarthouse.core.library.unit-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.library.dimension/0.10.1/org.opensmarthouse.core.library.dimension-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/si/uom/si-units/2.0.1/si-units-2.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/measure/unit-api/2.0/unit-api-2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/tech/units/indriya/2.0.1/indriya-2.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/tech/uom/lib/uom-lib-common/2.0/uom-lib-common-2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/si/uom/si-quantity/2.0/si-quantity-2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/opensmarthouse/core/bundles/org.opensmarthouse.core.event/0.10.1/org.opensmarthouse.core.event-0.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
