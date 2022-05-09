@@ -22,7 +22,6 @@ public class MaxandMin {
 
         System.out.println("-----------------------------------------------------");
 
-
 //        or
 
         int minNum = array[0];
@@ -42,4 +41,6 @@ public class MaxandMin {
         System.out.println("Max number is: " + maxNum);
 
     }}
+
+//or
 
