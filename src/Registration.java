@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 public class Registration {
     public static void main(String[] args) {
 
-        System.out.println(System.console());
 
 //
 //Add registration to your login script allowing the user to add their details.
@@ -20,13 +19,18 @@ public class Registration {
         String username = "";
         String password = "";
 
+        User[] users={
+                new User(username,password)
+        };
+
         //variables to store input
         String inputUsername = "";
         String inputPassword = "";
         String inputConfPassword = "";
 
         final String USERNAME_PATTERN = "^[a-zA-Z/d]([._-](?![._-])|[a-zA-Z/d]){3,18}[a-zA-Z/d]$";
-        final String PASSWORD_PATTERN = "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\\[-+_!@#$%^&*.,?]){6,18}";
+        // To check - why it doesn't allow me to start password with a number ???
+        final String PASSWORD_PATTERN = "^[a-zA-Z0-9](?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[-+_!@#$%^&*.,?]){6,18}";
         Scanner input = new Scanner(System.in);
 
 
@@ -41,7 +45,7 @@ public class Registration {
             } else {
             username = inputUsername;
         }
-        //when typing the password hide each character as an *
+        //when typing the password hide each character as an * ; it doesn't work in InteliJ
 //        Console console = System.console();
 //        char[] passwordArray = console.readPassword("Enter password: ");
 //        inputPassword = new String(passwordArray);
@@ -60,7 +64,7 @@ public class Registration {
 
         if (!validateStrings(inputPassword, PASSWORD_PATTERN)) {
            
-            System.out.println("Password must be minimum 8 letters and include at least 1 x uppercase, 1 x lowercase, a number and a special character");
+            System.out.println("Password must be minimum 8 letters.\nPassword must include at least: 1 x uppercase, 1 x lowercase, a number and a special character");
             inputPassword="";
              System.out.println("Enter password:");
              inputPassword = input.nextLine();
@@ -82,11 +86,11 @@ public class Registration {
         // inputConfPassword = new String(passwordConfArray);
         // }
         while(!inputConfPassword.trim().equals(inputPassword)){
-//            System.out.println("Passwords must match");
+            System.out.println("Passwords must match");
 //            passwordConfArray = console.readPassword("Confirm password: ");
 //            inputConfPassword = new String(passwordConfArray);
-        //     System.out.println("Confirm password:");
-        //     inputConfPassword = input.nextLine();
+             System.out.println("Confirm password:");
+             inputConfPassword = input.nextLine();
         }
         }
 
